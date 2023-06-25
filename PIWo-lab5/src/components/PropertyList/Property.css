@@ -1,0 +1,42 @@
+.property-container {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.property-image {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.property-details {
+  flex-grow: 1;
+}
+
+.description-container {
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.description-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description-content {
+  white-space: pre-line;
+  padding-left: 10px;
+  word-break: break-word;
+}
+
+.properties-list {
+  display: flex;
+  flex-wrap: wrap;
+}
